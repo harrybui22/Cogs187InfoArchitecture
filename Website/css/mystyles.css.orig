@@ -1,0 +1,80 @@
+/*
+
+TABLE OF CONTENTS
+1. General
+2. 
+
+
+*/
+
+/*
+1. GENERAL
+============================================ */
+
+html, body {
+  margin:0;
+  padding:0;
+  height: 100%;
+  cursor:crosshair;
+}
+
+* {
+	font-family: Lato, sans-serif;
+	font-weight:300;
+}
+
+a {
+	cursor: crosshair;
+}
+
+#logo {
+	height: 125px;
+	width: 160px;
+	display: block;
+	margin: auto;
+	padding: 5px;
+}
+
+#eval {
+	margin: 5px;
+	font-size: 15px;
+}
+
+.center {
+	text-align: center;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+
+
+/* HTML ELEMENTS....................................... */
+html{
+}
+body { 
+<<<<<<< HEAD
+=======
+    background: url("../img/pixel_weave.png") repeat;
+    position: relative;
+    height: auto;
+    width: 100%;
+>>>>>>> 40a40a0510443a6d652bbf0cfab259371f9e5d9c
+	color: #666; 
+	text-align: left; 
+}
+
+/* heading */
+h1, h2, h3, h4, h5, h6 { line-height: 1em; margin: 1em 0; }
+h1 { font-size: 2.2em; color:#225681;}
+h2 { font-size: 2em; color:#225681;}
+h3 { font-size: 1.8em; color:#225681;}
+
+/* paragraph */
+p#offwhite {
+color:#F5F5F5;
+}
+p#blue {
+color:#225681;
+}
