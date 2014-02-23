@@ -36,8 +36,13 @@ body {
 }
 
 a {
+<<<<<<< HEAD
 	color:#003696;
 	background-color:#003696;
+=======
+	color:#103e94;`
+	background-color:white;
+>>>>>>> 65e21e2af61a30c26c74c2d5ee25692c241e27e3
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
@@ -47,6 +52,12 @@ a {
 /*
 HTML ELEMENTS
 ============================================ */
+
+/* heading */
+h1, h2, h3, h4, h5, h6 { line-height: 1em; margin: 1em 0; }
+
+p {color:#008080;}
+#section{color:#008080;}
 
 /*
 SUBPAGES
