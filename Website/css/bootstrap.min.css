@@ -597,6 +597,7 @@ pre code {
 	margin-left:auto;
 	padding-left:0;
 	padding-right:0;
+	background-color:white;
 }
 .row {
 	margin-left:-15px;
@@ -4830,7 +4831,7 @@ button.close {
 		height:30px;
 		margin-top:-15px;
 		margin-left:-15px;
-		font-size:30px
+		font-size:30px;
 	}
 	.carousel-caption {
 		left:20%;
