@@ -5,14 +5,40 @@ COGS 187A Winter 2014
 TABLE OF CONTENTS
 1. General
 2. HTML Elements
-Footer
-
-
+Footer 
 */
 
 /*
 GENERAL
-============================================ */
+============== */
+
+
+/* ABOUT */
+.aboutbody {
+	text-align:center;
+	padding:7%;
+	margin-top:2%;
+}
+
+.aboutheader {
+	color:#0038aa;
+}
+
+.aboutp {
+	color:black;
+	margin-bottom:3%;
+}
+
+/*ACADEMICS */
+.academicsa {
+	font-size:14px;
+	color:black;
+	font-weight:bold;
+}
+
+
+/*INDEX */
+     
 .navbar-nav.navbar-right:last-child {
 	margin-right:0; !important
 	font-size:10px;
@@ -22,7 +48,7 @@ body {
 	padding:0px;
 	color:#fff;
 }
-     
+
 .info-elm a {
 	font-size:12px;
 }
@@ -109,6 +135,9 @@ p {color:#0038aa;}
 	width: 200px; 
 	height: 200px;
 }
+
+
+
 /*
 SUBPAGES
 ============================================ */
