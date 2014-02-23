@@ -39,6 +39,7 @@ body {
 .second-navbar a {
 	color:#003696;
 	background-color:#003696;
+<<<<<<< HEAD
 
 	background-color:white
 }
@@ -55,6 +56,8 @@ body {
 .second-navbar a {
 	color:#003696;
 	background-color:#003696;
+=======
+>>>>>>> ed741ce28546fc06eef0b23e6052f029d3b7b8ac
 }
 
 .second-navbar a {
@@ -62,6 +65,14 @@ body {
 	background-color:#003696;
 }
 
+<<<<<<< HEAD
+=======
+.second-navbar a {
+	color:#003696;
+	background-color:#003696;
+}
+
+>>>>>>> ed741ce28546fc06eef0b23e6052f029d3b7b8ac
 .navbar-form.navbar-right:last-child {
 	margin-right:0px;
 }
