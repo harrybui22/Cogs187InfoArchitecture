@@ -1,5 +1,5 @@
 /*
-Made by: Harry Bui, Vicky Tu, Jane Ryu
+Made by: Harry Bui, Vicky Tu, Heewon Ryu
 COGS 187A Winter 2014
 
 TABLE OF CONTENTS
@@ -22,7 +22,7 @@ body {
 	padding:0px;
 	color:#fff;
 }
-
+     
 .info-elm a {
 	font-size:12px;
 }
@@ -39,6 +39,7 @@ body {
 .second-navbar a {
 	color:#003696;
 	background-color:#003696;
+	background-color:white;
 }
 
 .navbar-form.navbar-right:last-child {
@@ -55,6 +56,14 @@ body {
 	background-color:#003696;
 }
 
+.second-navbar a {
+	color:#003696;
+	background-color:#003696;
+}
+
+.navbar-form.navbar-right:last-child {
+	margin-right:0px;
+}
 
 .nav-tabs.nav-justified>li>a {
 	margin-right:0;
@@ -67,7 +76,7 @@ body {
 	color:#fff;
 	background-color:#005af5;
 	font-weight:bold;
-	text-decoration:underline
+	text-decoration:underline;
 }
 
 .nav-tabs>li>a:hover {
@@ -88,9 +97,13 @@ HTML ELEMENTS
 /* heading */
 h1, h2, h3, h4, h5, h6 { line-height: 1em; margin: 1em 0; }
 
-p {color:#008080;}
-#section{color:#008080;}
+p {color:#315aad;}
+#section{color:#315aad;}
 
+.img-circle {
+	width: 140px; 
+	height: 140px;
+}
 /*
 SUBPAGES
 ============================================ */
@@ -104,8 +117,9 @@ SUBPAGES
  FOOTER
 ============================================ */
 footer {
-	background-color: #003696;
+	background-color: white;
 }
 #footer p {
-	color: #fff;
+	font-family:Helvetica;
+	color: black;
 }

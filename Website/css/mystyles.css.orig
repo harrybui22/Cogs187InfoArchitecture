@@ -1,5 +1,5 @@
 /*
-Made by: Harry Bui, Vicky Tu, Jane Ryu
+Made by: Harry Bui, Vicky Tu, Heewon Ryu
 COGS 187A Winter 2014
 
 TABLE OF CONTENTS
@@ -22,7 +22,7 @@ body {
 	padding:0px;
 	color:#fff;
 }
-
+     
 .info-elm a {
 	font-size:12px;
 }
@@ -36,52 +36,58 @@ body {
 	background-color:white;
 }
 
-<<<<<<< HEAD
-a {
-	color:#003696;
-	background-color:#003696;
-
-	color:#103e94;`
-	background-color:white
-=======
 .second-navbar a {
 	color:#003696;
 	background-color:#003696;
->>>>>>> ed741ce28546fc06eef0b23e6052f029d3b7b8ac
+	background-color:white;
 }
 
 .navbar-form.navbar-right:last-child {
 	margin-right:0px;
 }
 
-.header-navs {
-	padding-left:0;
-	padding-right:0;
-}
-
-.second-navbar a {
-	color:#003696;
-	background-color:#003696;
-}
-
-<<<<<<< HEAD
-=======
-.second-navbar a {
-	color:#003696;
-	background-color:#003696;
-}
-
-.navbar-form.navbar-right:last-child {
-	margin-right:0px;
-}
-
->>>>>>> ed741ce28546fc06eef0b23e6052f029d3b7b8ac
 .container-fluid {
 	padding-left:0;
 	padding-right:0;
 }
 
-.univ-logo {
+.navbar-inverse .navbar-nav>li>a {
+	color: #f5f5f5;
+	background-color:#003696;
+}
+
+.second-navbar a {
+	color:#003696;
+	background-color:#003696;
+}
+
+.navbar-form.navbar-right:last-child {
+	margin-right:0px;
+}
+
+.nav-tabs.nav-justified>li>a {
+	margin-right:0;
+	border-radius:4px;
+	color: #003696;
+	background-color: #fff;
+	}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color:#fff;
+	background-color:#005af5;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+.nav-tabs>li>a:hover {
+	border-color:#eee #eee #ddd;
+	color:#fff;
+	background-color:#ff0000;
+}
+
+.info-elm-search {
+	margin-right:10px;
+	margin-top:14px;
 }
 
 /*
@@ -91,9 +97,13 @@ HTML ELEMENTS
 /* heading */
 h1, h2, h3, h4, h5, h6 { line-height: 1em; margin: 1em 0; }
 
-p {color:#008080;}
-#section{color:#008080;}
+p {color:#315aad;}
+#section{color:#315aad;}
 
+.img-circle {
+	width: 140px; 
+	height: 140px;
+}
 /*
 SUBPAGES
 ============================================ */
@@ -106,3 +116,15 @@ SUBPAGES
 /*
  FOOTER
 ============================================ */
+<<<<<<< HEAD
+footer {
+	background-color: #003696;
+=======
+#footer {
+	background-color: white;
+>>>>>>> d69d19c6d346477fc9a9f1a31c97c4f20e337ac2
+}
+#footer p {
+	font-family:Helvetica;
+	color: black;
+}
