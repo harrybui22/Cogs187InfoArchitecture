@@ -29,6 +29,7 @@ body {
 
 .info-elm-form {
 	font-size:12px;
+	height:20px;
 }
 
 .navbar-collapse {
@@ -47,6 +48,15 @@ a {
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
 	background-color:#003696;
+}
+
+.navbar-form.navbar-right:last-child {
+	margin-right:0px;
+}
+
+.header-navs {
+	padding-left:0;
+	padding-right:0;
 }
 
 /*
