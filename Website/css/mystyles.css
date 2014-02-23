@@ -45,13 +45,21 @@ body {
 	background-color:#003696;
 }
 
+.second-navbar a {
+	color:#003696;
+	background-color:#003696;
+}
+
 .navbar-form.navbar-right:last-child {
 	margin-right:0px;
 }
 
-.header-navs {
+.container-fluid {
 	padding-left:0;
 	padding-right:0;
+}
+
+.univ-logo {
 }
 
 /*
