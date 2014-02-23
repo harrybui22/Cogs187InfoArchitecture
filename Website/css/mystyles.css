@@ -39,32 +39,11 @@ body {
 .second-navbar a {
 	color:#003696;
 	background-color:#003696;
+<<<<<<< HEAD
 
 	background-color:white
-}
-
-.navbar-form.navbar-right:last-child {
-	margin-right:0px;
-}
-
-.header-navs {
-	padding-left:0;
-	padding-right:0;
-}
-
-.second-navbar a {
-	color:#003696;
-	background-color:#003696;
-}
-
-.second-navbar a {
-	color:#003696;
-	background-color:#003696;
-}
-
-.second-navbar a {
-	color:#003696;
-	background-color:#003696;
+=======
+>>>>>>> 3fec346613ad39127c811cd5f6c7f43079b89e30
 }
 
 .navbar-form.navbar-right:last-child {
@@ -76,7 +55,45 @@ body {
 	padding-right:0;
 }
 
-.univ-logo {
+.navbar-inverse .navbar-nav>li>a {
+	color: #f5f5f5;
+	background-color:#003696;
+}
+
+
+<<<<<<< HEAD
+.second-navbar a {
+	color:#003696;
+	background-color:#003696;
+}
+
+.navbar-form.navbar-right:last-child {
+	margin-right:0px;
+=======
+.nav-tabs.nav-justified>li>a {
+	margin-right:0;
+	border-radius:4px;
+	color: #003696;
+	background-color: #fff;
+	}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color:#fff;
+	background-color:#005af5;
+	font-weight:bold;
+	text-decoration:underline
+>>>>>>> 3fec346613ad39127c811cd5f6c7f43079b89e30
+}
+
+.nav-tabs>li>a:hover {
+	border-color:#eee #eee #ddd;
+	color:#fff;
+	background-color:#ff0000;
+}
+
+.info-elm-search {
+	margin-right:10px;
+	margin-top:14px;
 }
 
 /*
@@ -101,3 +118,9 @@ SUBPAGES
 /*
  FOOTER
 ============================================ */
+#footer {
+	background-color: #003696;
+}
+#footer p {
+	color: #fff;
+}
