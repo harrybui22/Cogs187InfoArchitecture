@@ -23,6 +23,13 @@ body {
 	color:#fff;
 }
 
+.div.navbar.navbar-inverse.navbar-static-top {
+	position:relative;
+	min-height:50px;
+	margin-bottom:0px;
+	border:0px solid transparent;
+}
+     
 .info-elm a {
 	font-size:12px;
 }
@@ -117,8 +124,9 @@ SUBPAGES
  FOOTER
 ============================================ */
 #footer {
-	background-color: #003696;
+	background-color: white;
 }
 #footer p {
-	color: #fff;
+	font-family:Helvetica;
+	color: black;
 }
