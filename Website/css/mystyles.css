@@ -44,6 +44,10 @@ a {
 =======
 >>>>>>> 3abd0b8d358fdd8aa9095a8ea3556465e1dedf23
 
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	background-color:#003696;
+}
+
 /*
 HTML ELEMENTS
 ============================================ */
