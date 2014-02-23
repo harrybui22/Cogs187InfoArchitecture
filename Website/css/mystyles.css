@@ -117,9 +117,20 @@ SUBPAGES
  FOOTER
 ============================================ */
 footer {
-	background-color: white;
+	background-color: #003696;
 }
+
 #footer p {
 	font-family:Helvetica;
-	color: black;
+	color: #f5f5f5;
+}
+
+#footer-col1{
+
+}
+.footer-col{
+	float:left;
+	margin-right: 4%;
+	position: relative;
+	width: 22%;
 }
