@@ -1,5 +1,5 @@
 /*
-Made by: Harry Bui, Vicky Tu, Jane Ryu
+Made by: Harry Bui, Vicky Tu, Heewon Ryu
 COGS 187A Winter 2014
 
 TABLE OF CONTENTS
@@ -39,11 +39,7 @@ body {
 .second-navbar a {
 	color:#003696;
 	background-color:#003696;
-<<<<<<< HEAD
-
-	background-color:white
-=======
->>>>>>> 3fec346613ad39127c811cd5f6c7f43079b89e30
+	background-color:white;
 }
 
 .navbar-form.navbar-right:last-child {
@@ -60,8 +56,6 @@ body {
 	background-color:#003696;
 }
 
-
-<<<<<<< HEAD
 .second-navbar a {
 	color:#003696;
 	background-color:#003696;
@@ -69,7 +63,8 @@ body {
 
 .navbar-form.navbar-right:last-child {
 	margin-right:0px;
-=======
+}
+
 .nav-tabs.nav-justified>li>a {
 	margin-right:0;
 	border-radius:4px;
@@ -81,8 +76,7 @@ body {
 	color:#fff;
 	background-color:#005af5;
 	font-weight:bold;
-	text-decoration:underline
->>>>>>> 3fec346613ad39127c811cd5f6c7f43079b89e30
+	text-decoration:underline;
 }
 
 .nav-tabs>li>a:hover {
