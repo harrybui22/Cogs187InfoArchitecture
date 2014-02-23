@@ -48,6 +48,12 @@ a {
 HTML ELEMENTS
 ============================================ */
 
+/* heading */
+h1, h2, h3, h4, h5, h6 { line-height: 1em; margin: 1em 0; }
+
+p {color:#008080;}
+#section{color:#008080;}
+
 /*
 SUBPAGES
 ============================================ */
