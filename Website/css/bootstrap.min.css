@@ -83,7 +83,7 @@ code,kbd,pre,samp {
 button,input,optgroup,select,textarea {
 	color:inherit;
 	font:inherit;
-	margin:0
+	margin:5px;
 }
 button {
 	overflow:visible
@@ -595,8 +595,8 @@ pre code {
 .container-fluid {
 	margin-right:auto;
 	margin-left:auto;
-	padding-left:15px;
-	padding-right:15px
+	padding-left:0;
+	padding-right:0;
 }
 .row {
 	margin-left:-15px;
@@ -2964,7 +2964,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 .nav-tabs>li.active>a,.nav-tabs>li.active>a:hover,.nav-tabs>li.active>a:focus {
 	color:#555;
 	background-color:#fff;
-	border:1px solid #ddd;
+	border:1px solid white;
 	border-bottom-color:transparent;
 	cursor:default
 }
@@ -3130,8 +3130,8 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 	}
 }
 .container>.navbar-header,.container-fluid>.navbar-header,.container>.navbar-collapse,.container-fluid>.navbar-collapse {
-	margin-right:-15px;
-	margin-left:-15px
+	margin-right:0;
+	margin-left:0;
 }
 @media (min-width:768px) {
 	.container>.navbar-header,.container-fluid>.navbar-header,.container>.navbar-collapse,.container-fluid>.navbar-collapse {
@@ -3456,8 +3456,9 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 	color:#999
 }
 .navbar-inverse .navbar-nav>li>a:hover,.navbar-inverse .navbar-nav>li>a:focus {
-	color:#fff;
-	background-color:transparent
+	color:black;
+	background-color:transparent;
+	font-size:14;
 }
 .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>.active>a:focus {
 	color:#fff;
