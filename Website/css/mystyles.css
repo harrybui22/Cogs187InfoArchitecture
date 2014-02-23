@@ -36,14 +36,9 @@ body {
 	background-color:white;
 }
 
-a {
-<<<<<<< HEAD
+.second-navbar a {
 	color:#003696;
 	background-color:#003696;
-=======
-	color:#103e94;`
-	background-color:white;
->>>>>>> 65e21e2af61a30c26c74c2d5ee25692c241e27e3
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
