@@ -26,6 +26,23 @@ GENERAL
 	font-size:12px;
 }
 
+.navbar-collapse {
+	background-color:white;
+}
+
+.navar-collapse collapse {
+	background-color:white;
+	padding:0;
+}
+
+a {
+	color:#103e94;
+	background-color:white;
+}
+
+
+
+
 /*
 HTML ELEMENTS
 ============================================ */
