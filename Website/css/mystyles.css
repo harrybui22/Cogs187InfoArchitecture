@@ -18,6 +18,11 @@ GENERAL
 	font-size:10px;
 }
 
+body {
+	padding:0px;
+	color:#fff;
+}
+
 .info-elm a {
 	font-size:12px;
 }
@@ -34,7 +39,10 @@ a {
 	color:#103e94;
 	background-color:white;
 }
+<<<<<<< HEAD
  
+=======
+>>>>>>> 3abd0b8d358fdd8aa9095a8ea3556465e1dedf23
 
 /*
 HTML ELEMENTS
