@@ -1,80 +1,108 @@
 /*
+Made by: Harry Bui, Vicky Tu, Jane Ryu
+COGS 187A Winter 2014
 
 TABLE OF CONTENTS
 1. General
-2. 
+2. HTML Elements
+Footer
 
 
 */
 
 /*
-1. GENERAL
+GENERAL
 ============================================ */
-
-html, body {
-  margin:0;
-  padding:0;
-  height: 100%;
-  cursor:crosshair;
+.navbar-nav.navbar-right:last-child {
+	margin-right:0; !important
+	font-size:10px;
 }
 
-* {
-	font-family: Lato, sans-serif;
-	font-weight:300;
+body {
+	padding:0px;
+	color:#fff;
 }
 
+.info-elm a {
+	font-size:12px;
+}
+
+.info-elm-form {
+	font-size:12px;
+	height:20px;
+}
+
+.navbar-collapse {
+	background-color:white;
+}
+
+<<<<<<< HEAD
 a {
-	cursor: crosshair;
+	color:#003696;
+	background-color:#003696;
+
+	color:#103e94;`
+	background-color:white
+=======
+.second-navbar a {
+	color:#003696;
+	background-color:#003696;
+>>>>>>> ed741ce28546fc06eef0b23e6052f029d3b7b8ac
 }
 
-#logo {
-	height: 125px;
-	width: 160px;
-	display: block;
-	margin: auto;
-	padding: 5px;
+.navbar-form.navbar-right:last-child {
+	margin-right:0px;
 }
 
-#eval {
-	margin: 5px;
-	font-size: 15px;
+.header-navs {
+	padding-left:0;
+	padding-right:0;
 }
 
-.center {
-	text-align: center;
+.second-navbar a {
+	color:#003696;
+	background-color:#003696;
 }
 
-.uppercase {
-	text-transform: uppercase;
-}
-
-
-
-/* HTML ELEMENTS....................................... */
-html{
-}
-body { 
 <<<<<<< HEAD
 =======
-    background: url("../img/pixel_weave.png") repeat;
-    position: relative;
-    height: auto;
-    width: 100%;
->>>>>>> 40a40a0510443a6d652bbf0cfab259371f9e5d9c
-	color: #666; 
-	text-align: left; 
+.second-navbar a {
+	color:#003696;
+	background-color:#003696;
 }
+
+.navbar-form.navbar-right:last-child {
+	margin-right:0px;
+}
+
+>>>>>>> ed741ce28546fc06eef0b23e6052f029d3b7b8ac
+.container-fluid {
+	padding-left:0;
+	padding-right:0;
+}
+
+.univ-logo {
+}
+
+/*
+HTML ELEMENTS
+============================================ */
 
 /* heading */
 h1, h2, h3, h4, h5, h6 { line-height: 1em; margin: 1em 0; }
-h1 { font-size: 2.2em; color:#225681;}
-h2 { font-size: 2em; color:#225681;}
-h3 { font-size: 1.8em; color:#225681;}
 
-/* paragraph */
-p#offwhite {
-color:#F5F5F5;
-}
-p#blue {
-color:#225681;
-}
+p {color:#008080;}
+#section{color:#008080;}
+
+/*
+SUBPAGES
+============================================ */
+
+
+/*
+ HEADER
+============================================ */
+
+/*
+ FOOTER
+============================================ */

@@ -36,11 +36,10 @@ body {
 	background-color:white;
 }
 
-a {
+.second-navbar a {
 	color:#003696;
 	background-color:#003696;
 
-	color:#103e94;`
 	background-color:white
 }
 
@@ -56,6 +55,15 @@ a {
 .second-navbar a {
 	color:#003696;
 	background-color:#003696;
+}
+
+.second-navbar a {
+	color:#003696;
+	background-color:#003696;
+}
+
+.navbar-form.navbar-right:last-child {
+	margin-right:0px;
 }
 
 .container-fluid {
