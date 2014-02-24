@@ -16,6 +16,10 @@ GENERAL
 	padding-bottom:75px;
 }
 
+.homepage-thumbnails p {
+	text-align:justify;
+}
+
 .right-side-content {
 	padding-left:300px;
 	padding-right:100px;
