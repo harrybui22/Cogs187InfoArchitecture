@@ -100,6 +100,31 @@ GENERAL
 	width:55%;
 }
 
+/* TABLE */
+#pattern {
+   	font-family:"Lucida Sans Unicode", "Lucida Grande", "Sans-Serif";
+   	font-size: 12px;
+   	background: #fff;
+   	margin: 30px;
+ 	width:90%;
+   	text-align: center;
+   	}
+#pattern th {
+	font-size: 14px;
+	font-weight: normal;
+	color: #606060;
+	padding: 10px 8px;
+	border-bottom: 2px solid #006699;
+	text-align:center;
+	}
+#pattern td {
+	color: #808080;
+	padding: 9px 8px 0px 8px;
+	}
+#pattern tbody tr:hover td {
+	color: #0038aa;
+	}
+
 
 /*INDEX */
      
