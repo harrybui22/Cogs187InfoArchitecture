@@ -93,6 +93,30 @@ GENERAL
 }
 
 
+/* ABOUT */
+.contactbody {
+	text-align:left;
+	padding-top:2%;
+	padding-bottom:3%;
+	padding-right:10%;
+	padding-left:10%;
+}
+
+.contactheader {
+	text-align:left;
+	color:#0038aa;
+	margin-bottom:2%;
+	margin-top:2%;
+}
+
+.contactp {
+	color:gray;
+	margin-bottom:1.75%;
+	margin-top:1.75%;
+	width:65%;
+}
+
+
 /*INDEX */
      
 .navbar-nav.navbar-right:last-child {
