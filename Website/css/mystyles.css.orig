@@ -5,14 +5,112 @@ COGS 187A Winter 2014
 TABLE OF CONTENTS
 1. General
 2. HTML Elements
-Footer
-
-
+Footer 
 */
 
 /*
 GENERAL
-============================================ */
+============== */
+
+
+/* SUBPAGES */
+.pagebody {
+	text-align:center;
+	padding-top:2%;
+	padding-bottom:3%;
+	padding-right:8%;
+	padding-left:8%;
+}
+
+.pageheader {
+	color:#0038aa;
+}
+
+.pagep {
+	color:gray;
+	margin-bottom:3%;
+	margin-top:3%;
+}
+.pageimg {
+	height:10%;
+	width:60%;
+}
+
+<<<<<<< HEAD
+.academicsp {
+	color:gray;
+	margin-top:3%;
+	margin-bottom:;
+	margin-right:10px;
+	margin-left:10px;
+}
+
+/*ADMISSIONS */
+.admissionsbody {
+	text-align:center;
+	padding-top:2%;
+	padding-bottom:2%;
+	padding-right:8%;
+	padding-left:8%;
+}
+
+.admissionsheader {
+	color:#0038aa;
+}
+
+.admissionsp {
+	color:gray;
+	margin-top:3%;
+}
+
+/* RESEARCH */
+.researchbody {
+	text-align:center;
+	padding-top:2%;
+	padding-bottom:2%;
+	padding-right:8%;
+	padding-left:8%;
+}
+
+.researchheader {
+	color:#0038aa;
+}
+
+.researchp {
+	color:gray;
+	margin-top:3%;
+	margin-bottom:2%;
+}
+
+
+/* ABOUT */
+.contactbody {
+	text-align:left;
+	padding-top:2%;
+	padding-bottom:3%;
+	padding-right:10%;
+	padding-left:10%;
+}
+
+.contactheader {
+	text-align:left;
+	color:#0038aa;
+	margin-bottom:2%;
+	margin-top:2%;
+}
+
+.contactp {
+	color:gray;
+	margin-bottom:1.75%;
+	margin-top:1.75%;
+	width:65%;
+}
+
+
+=======
+>>>>>>> 78df8c9299ddcf0a1dd6af489cf84f97883124a6
+/*INDEX */
+     
 .navbar-nav.navbar-right:last-child {
 	margin-right:0; !important
 	font-size:10px;
@@ -22,7 +120,7 @@ body {
 	padding:0px;
 	color:#fff;
 }
-     
+
 .info-elm a {
 	font-size:12px;
 }
@@ -33,7 +131,7 @@ body {
 }
 
 .navbar-collapse {
-	background-color:white;
+	background-color:#0038aa;
 }
 
 .second-navbar a {
@@ -53,7 +151,7 @@ body {
 
 .navbar-inverse .navbar-nav>li>a {
 	color: #f5f5f5;
-	background-color:#003696;
+	background-color:#0038aa;
 }
 
 .second-navbar a {
@@ -66,8 +164,9 @@ body {
 }
 
 .nav-tabs.nav-justified>li>a {
+	font-size:16px;
 	margin-right:0;
-	border-radius:4px;
+	border-radius:0px;
 	color: #003696;
 	background-color: #fff;
 	}
@@ -76,7 +175,7 @@ body {
 	color:#fff;
 	background-color:#005af5;
 	font-weight:bold;
-	text-decoration:underline;
+	text-decoration:none;
 }
 
 .nav-tabs>li>a:hover {
@@ -97,16 +196,39 @@ HTML ELEMENTS
 /* heading */
 h1, h2, h3, h4, h5, h6 { line-height: 1em; margin: 1em 0; }
 
-p {color:#315aad;}
-#section{color:#315aad;}
+#carousel-caption p {
+	color:white;
+}
+
+p {color:#0038aa;}
+#section{color:#0038aa;}
 
 .img-circle {
-	width: 140px; 
-	height: 140px;
+	width: 200px; 
+	height: 200px;
 }
-/*
-SUBPAGES
-============================================ */
+
+/*ACTIVE element - for breadcrumbs*/
+.nav-tabs.nav-justified > .active1 > a,
+.nav-tabs.nav-justified > .active1 > a:hover,
+.nav-tabs.nav-justified > .active1 > a:focus {
+  border: 1px solid #ddd;
+}
+
+
+@media (min-width: 768px) {
+  .nav-tabs.nav-justified > li > a {
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+  }
+  .nav-tabs.nav-justified > .active1 > a,
+  .nav-tabs.nav-justified > .active1 > a:hover,
+  .nav-tabs.nav-justified > .active1 > a:focus {
+	border-color:#eee #eee #ddd;
+	color:#fff;
+	background-color:#333333;
+  }
+}
 
 
 /*
@@ -114,17 +236,99 @@ SUBPAGES
 ============================================ */
 
 /*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: static;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 5px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 10px solid #eee;
+    border-left: 10px solid #eee;
+    border-top: 10px solid #eee;
+    border-bottom: 10px solid #eee;
+    margin-right:-10%;
+    margin-left:-5%;
+    margin-top:-6%;
+    margin-bottom:10%;
+  }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a {
+  color: #fff;
+  background-color: #428bca;
+}
+
+
+/*
  FOOTER
 ============================================ */
-<<<<<<< HEAD
 footer {
 	background-color: #003696;
-=======
-#footer {
-	background-color: white;
->>>>>>> d69d19c6d346477fc9a9f1a31c97c4f20e337ac2
 }
+
+#footer h4 {
+	font-weight: bold;
+	margin-top: 6%;
+	margin-bottom: 2%;
+}
+
 #footer p {
 	font-family:Helvetica;
-	color: black;
+	color: #f5f5f5;
+	font-size: 90%;
+	padding: 10px 0 0;
+}
+
+#footer a {
+	font-family:Helvetica;
+	color: #f5f5f5;
+	font-size: 90%;
+}
+
+
+.footer-col{
+	float:left;
+	margin-right: 4%;
+	position: relative;
+	width: 20%;
+}
+
+#footer-col1 ul footer-col2 ul, footer-col3 ul, .footer-col ul{
+	list-style:none outside none;
+	margin: 0;
+	padding: 10px 0 0;
+}
+
+#footer .footer-logo {
+	position: absolute;
+	right: 10%;
+	bottom: 0px;
+}
+#footer .container {
+	position: relative;
+	margin-right: auto;
+	margin-left:auto;
 }
