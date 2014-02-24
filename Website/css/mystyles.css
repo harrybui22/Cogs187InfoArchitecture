@@ -247,6 +247,19 @@ p {color:#0038aa;}
   }
 }
 
+/* divs*/
+.block1 {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  float: right
+}
+@media (min-width: 768px) {
+  .block1 {
+    width: 700px;
+  }
+}
 
 /*
  HEADER
