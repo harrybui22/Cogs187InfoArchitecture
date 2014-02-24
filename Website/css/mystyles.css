@@ -18,6 +18,8 @@ GENERAL
 	text-align:center;
 	padding-top:2%;
 	padding-bottom:3%;
+	padding-right:8%;
+	padding-left:8%;
 }
 
 .aboutheader {
@@ -27,6 +29,7 @@ GENERAL
 .aboutp {
 	color:gray;
 	margin-bottom:3%;
+	margin-top:3%;
 }
 
 /*ACADEMICS */
