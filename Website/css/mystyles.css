@@ -192,7 +192,27 @@ p {color:#0038aa;}
 	height: 200px;
 }
 
+/*ACTIVE element - for breadcrumbs*/
+.nav-tabs.nav-justified > .active1 > a,
+.nav-tabs.nav-justified > .active1 > a:hover,
+.nav-tabs.nav-justified > .active1 > a:focus {
+  border: 1px solid #ddd;
+}
 
+
+@media (min-width: 768px) {
+  .nav-tabs.nav-justified > li > a {
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+  }
+  .nav-tabs.nav-justified > .active1 > a,
+  .nav-tabs.nav-justified > .active1 > a:hover,
+  .nav-tabs.nav-justified > .active1 > a:focus {
+	border-color:#eee #eee #ddd;
+	color:#fff;
+	background-color:#333333;
+  }
+}
 
 /*
 SUBPAGES
