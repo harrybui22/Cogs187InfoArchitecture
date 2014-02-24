@@ -44,6 +44,7 @@ GENERAL
 	margin-bottom:3%;
 	margin-top:3%;
 }
+
 .pageimg {
 	height:10%;
 	width:60%;
@@ -256,8 +257,36 @@ p {color:#0038aa;}
 }
 @media (min-width: 768px) {
   .pagebody .block1 {
-    width: 700px;
+    width: 77%;
   }
+}
+
+.pagebody .block1 .description h3{
+	color: gray;
+}
+
+.pagebody .block1 .screenshot {
+	margin: auto;
+	padding: 10px;
+	float: left;
+}
+.pagebody .block1 .screenshot2 {
+	margin: auto;
+	padding: 10px;
+	float: right;
+}
+.pagebody .block1 .description {
+	padding-top: 10px;
+	text-align: center;
+	display: table-cell;	
+}
+
+.pagebody .block1 .clear {
+	clear: both;
+}
+
+.pagebody .subpage-center{
+	margin-left:20%;
 }
 
 /*
@@ -288,8 +317,8 @@ p {color:#0038aa;}
     border-left: 10px solid #eee;
     border-top: 10px solid #eee;
     border-bottom: 10px solid #eee;
-    margin-right:-10%;
-    margin-left:-5%;
+    margin-right:-8%;
+    margin-left:-8%;
     margin-top:0px;
     margin-bottom:0px;
 	float:left;
