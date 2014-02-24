@@ -291,8 +291,8 @@ p {color:#0038aa;}
     border-bottom: 10px solid #eee;
     margin-right:-10%;
     margin-left:-5%;
-    margin-top:0;
-    margin-bottom:10%;
+    margin-top:0px;
+    margin-bottom:0px;
 	float:left;
   }
 }
