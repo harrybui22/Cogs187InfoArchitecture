@@ -59,6 +59,34 @@ GENERAL
 	width:65%;
 }
 
+.contactbody table{
+	width: 80%;
+	border: 0;
+	cellspacing: 0;
+	cellpadding: 0;
+	color:gray;
+}
+.contactbody table tbody tr {
+	width: 90%;
+	border bottom: solid 1px white;
+}
+.contactbody table tbody tr td{
+	padding: 0.25em 0.5em;
+}
+.contactbody tbody {
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+.contactbody tr {
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+}
+.colgroup col {
+	width:55%;
+}
+
 
 /*INDEX */
      
