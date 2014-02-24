@@ -20,6 +20,7 @@ GENERAL
 	padding-bottom:3%;
 	padding-right:8%;
 	padding-left:8%;
+	div-alig
 }
 
 .aboutheader {
@@ -37,8 +38,8 @@ GENERAL
 	text-align:center;
 	padding-top:2%;
 	padding-bottom:2%;
-	padding-right:8%;
 	padding-left:8%;
+	padding-right:-5%;
 }
 
 .academicsa {
@@ -53,6 +54,9 @@ GENERAL
 .academicsp {
 	color:gray;
 	margin-top:3%;
+	margin-bottom:;
+	margin-right:10px;
+	margin-left:10px;
 }
 
 /*ADMISSIONS */
@@ -224,8 +228,50 @@ SUBPAGES
 ============================================ */
 
 /*
- SIDEBAR
-============================================ */
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: static;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 5px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 10px solid #eee;
+    border-left: 10px solid #eee;
+    border-top: 10px solid #eee;
+    border-bottom: 10px solid #eee;
+    margin-right:-10%;
+    margin-left:-5%;
+    margin-top:-6%;
+    margin-bottom:10%;
+  }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a {
+  color: #fff;
+  background-color: #428bca;
+}
 
 
 /*
