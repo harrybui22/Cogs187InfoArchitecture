@@ -1,243 +1,158 @@
 <!DOCTYPE html>
 
-<html lang="en">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta charset="utf-8">
+<html>
+
+  <head>
+
+    <meta name="author" content="Vicky Tu, Heewon Ryu, Harry Bui">
+    <meta name="description" content="Information Architecture">
+    <meta name="keywords" content="information architecture, redesign, Georgia State University">
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=320, height=device-height, target-densitydpi=medium-dpi" />
+
+    <title>Information Architecture by Vicky Tu, Heewon Ryu, and Harry Bui</title>
+
+    <link rel="stylesheet" href="css/page/bootstrap.css" type="text/css"/>
+    <link rel="stylesheet" href="css/page/pagestyles.css" type="text/css"/>
+    <link rel="stylesheet" href="css/page/lightbox.css"/>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/lightbox-2.6.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    
+    </head>
   
-    <meta name="description" content="Redesigning the information architecture of GSU's home page and several other secondary pages">
-	<meta name="author" content="Harry Bui, Vicky Tu, Heewon Ryu">
+  <body>
 
-	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <div class="container main-section">
+        
+        <!-- Header -->
 
-    <title>GSU Information Architecture</title>
-
-	
-	<!--Link to CSS Stylesheet -->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
-	<link rel="stylesheet" type="text/css" href="css/theme.css"/>
-	<link rel="stylesheet" type="text/css" href="css/dashboard.css"/>
-	<link rel="stylesheet" type="text/css" href="css/carousel.css"/>
-	<link rel="stylesheet" type="text/css" href="css/mystyles.css"/>
-	
-	<!--Link to Javascript/ JQuery-->
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
-
-	    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-	
-</head>
-
-<body>
-
- <div class="navbar navbar-inverse navbar-static-top" role="navigation">
-      <div class="container-fluid header-navs">
-        <div class="navbar-header">
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right info-elm">
-            <li><a href="students.html">Students</a></li>
-			<li><a href="faculty.html">Faculty</a></li>
-            <li><a href="alumni.html">Alumni</a></li>
-            <li><a href="employees.html">Employees</a></li>
-            <li><a href="families.html">Families</a></li>
-            <li><form class="navbar-form navbar-right info-elm-search">
-            <input type="text" class="form-control info-elm-form" placeholder="Search...">
-          </form></li>
-          </ul>
+        <div class="page-header">
+          <h1><a href="index.html">Information Architecture</a> <small class="sub-header">by Vicky Tu, Heewon Ryu, and Harry Bui</small></h1>
         </div>
 
-        <img class="univ-logo" src="img/horz-logo.jpg" alt="Horizontal logo" />
+        <p>
+            This page contains the information we constructed to aid us in our information architecture redesign of the Georgia State University website. We include the various deliverables that were part of the assignment, including our personas, competitive analysis, hardest decision, and redesigned result. Our redesign process can be found throughout the links listed below.
+        </p>
 
-        <div class="navbar-collapse collapse">
-          <ul class="nav nav-tabs nav-justified second-navbar">
-            <li><a href="about.html">About</a></li>
-            <li><a href="academics.html">Academics</a></li>
-            <li><a href="admissions.html">Admissions</a></li>
-            <li><a href="research.html">Research</a></li>
-          </ul>
+        <hr class="featurette-divider">
+
+        <!-- Documents -->
+
+        <div class="documents">
+            <h2 class="small-heading">Documents</h2>
+                <ul>
+                    <li><a href="personas.html">Personas</a></li>
+                    <li><a href="companalysis.html">Competitive Analysis</a></li>
+                    <li><a href="hardestdec.html">Hardest Decisions</a></li>
+                </ul>
+
         </div>
-      </div>
+
+        <!-- Redesigned site -->
+
+        <div class="redesigned-site">
+            <h2 class="small-heading">Redesigned site</h2>
+                <h4 class="small-heading">Information elements</h4>
+                <ul>
+                    <li><a href="students.html">Students</a></li>
+                        <li class="tab">Academics <span class="italics">(wireframe)</span></li>
+                        <li class="tab">Campus Life <span class="italics">(wireframe)</span></li>
+                        <li class="tab">GoSOLAR <span class="italics">(wireframe)</span></li>
+                        <li class="tab">PAWS <span class="italics">(wireframe)</span></li>
+                        <li class="tab">Desire2Learn <span class="italics">(wireframe)</span></li>
+                    <li><a href="faculty.html">Faculty</a></li>
+                        <li class="tab">Administration</li>
+                        <li class="tab">Facilites & Services</li>
+                        <li class="tab">Research</li>
+                        <li class="tab">Teaching</li>
+                    <li><a href="alumni.html">Alumni</a></li>
+                        <li class="tab">News</li>
+                        <li class="tab">Community</li>
+                        <li class="tab">Events</li>
+                        <li class="tab">Resources & Services</li>
+                        <li class="tab">Benefits</li>
+                    <li><a href="employees.html">Employees</a></li>
+                        <li class="tab">Human Resources & Services</li>
+                        <li class="tab">Finances</li>
+                        <li class="tab">Benefits</li>
+                        <li class="tab">Development</li>
+                    <li><a href="families.html">Families</a></li>
+                        <li class="tab">Finance</li>
+                        <li class="tab">Academic Resources</li>
+                        <li class="tab">Getting involved</li>
+                </ul>
+                <h4 class="small-heading">Navigation bar</h4>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                        <li class="tab">Mission Statement</li>
+                        <li class="tab">Leadership & University Administration</li>
+                        <li class="tab">Rankings</li>
+                        <li class="tab">GSU in the Community</li>
+                    <li><a href="academics.html">Academics</a></li>
+                        <li class="tab">Undergraduate Programs</li>
+                        <li class="tab">Graduate Programs</li>
+                        <li class="tab"><a href="undergraddegreesandmajors.html">Undergraduate Degrees & Majors</a></li>
+                        <li class="double-tab"><a href="mathematics.html">Mathematics</a></li>
+                        <li class="tab">Graduate Degrees & Majors</li>
+                        <li class="tab">Departments</li>
+                        <li class="tab">Academic Resources</li>
+                        <li class="tab">Study Abroad</li>
+                    <li><a href="admissions.html">Admissions</a></li>
+                        <li class="tab">Undergraduate Admissions</li>
+                        <li class="tab">Graduate Admissions</li>
+                        <li class="tab">Admissions Calendar</li>
+                        <li class="tab">View Status</li>
+                        <li class="tab">Campus Tours</li>
+                    <li><a href="research.html">Research</a></li>
+                        <li class="tab">News</li>
+                        <li class="tab">Resources</li>
+                        <li class="tab">Research Labs & Faculty</li>
+                        <li class="tab">Students</li>
+                </ul>
+                <h4 class="small-heading">Slider</h4>
+                <ul>
+                    <li><a href="about.html">Georgia State University</a></li>
+                    <li><a href="admissions.html">Admissions & Campus Life</a></li>
+                    <li><a href="http://www.gsu.edu/colleges-schools/">Colleges & Schools <span class="italics">(original site)</span></a></li>
+                </ul>
+                <h4 class="small-heading">Thumbnail information</h4>
+                <ul>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="universitycommunity.html">Community</a></li>
+                </ul>
+                <h4 class="small-heading">Footer</h4>
+                <ul>
+                    <li>Contact</li>
+                        <li class="tab">Copyright</li>
+                        <li class="tab">Terms</li>
+                        <li class="tab"><a href="contact.html">Contact</a></li>
+                    <li>Colleges</li>
+                        <li class="tab"><a href="http://aysps.gsu.edu/">Andrew Young School of Policy Studies<span class="italics">(original site)</span></a></li>
+                        <li class="tab"><a href="http://snhp.gsu.edu/">Byrdine F. Lewis School of Nursing and Health Professions <span class="italics">(original site)</span></a></li>
+                        <li class="tab"><a href="http://www.cas.gsu.edu/">College of Arts and Sciences <span class="italics">(original site)</span></a></li>
+                        <li class="tab"><a href="http://education.gsu.edu/">College of Education <span class="italics">(original site)</span></a></li>
+                        <li class="tab"><a href="">College of Law <span class="italics">(original site)</span></a></li>
+                        <li class="tab"><a href="http://honors.gsu.edu/">Honors College <span class="italics">(original site)</span></a></li>
+                        <li class="tab"><a href="http://publichealth.gsu.edu/">School of Public Health <span class="italics">(original site)</span></a></li>
+                        <li class="tab"><a href="http://robinson.gsu.edu/">J. Mack Robinson College of Business <span class="italics">(original site)</span></a></li>
+                    <li>Other Resources</li>
+                        <li class="tab"><a href="http://map.gsu.edu/#/">Campus Map <span class="italics">(original site)</span></a></li>
+                        <li class="tab"><a href="http://www.gsu.edu/a-z-index/">Directory <span class="italics">(original site)</span></a></li>
+                        <li class="tab"><a href="http://disability.gsu.edu/">Disability Resources <span class="italics">(original site)</span></a></li>
+                        <li class="tab"><a href="http://safety.gsu.edu/emergency-management/">Emergency <span class="italics">(original site)</span></a></li>
+                </ul>
+        </div>
+
+        <!-- Footer -->
+
+        <div id="footer">
+          <p class="footer-text">COGS 187A · Vicky Tu, Heewon Ryu, Harry Bui</p>
+        </div>
+
     </div>
 
+  </body>
 
-
-<!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="img/home_banner.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Georgia State University Home</h1>
-              <h3>Crushing the Odds: how Georgia State gets students to graduation</h3>
-              <p><a class="btn btn-lg btn-primary" href="about.html" role="button">Learn More</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="img/campuslife_logo.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Admission & Campus Life</h1>
-              <h3>Is Georgia State the perfect fit for you? Apply today!</h3>
-              <p><a class="btn btn-lg btn-primary" href="admissions.html" role="button">Learn More</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="img/collegesandschools_logo.png" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Colleges & Schools</h1>
-              <h3>Georgia State's colleges and schools, centers of creativity and discovery, have a major impact on Atlanta, the nation, and the world</h3>
-              <p><a class="btn btn-lg btn-primary" href="http://www.gsu.edu/colleges-schools/" role="button">Learn More</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="http://getbootstrap.com/examples/carousel/#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="http://getbootstrap.com/examples/carousel/#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->
-
-	<!-- Content
-	================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container marketing homepage-thumbnails">
-
-		<div class="row">
-	        <div class="col-lg-4">
-		        <h2 class="section">News</h2>
-		        <a href="news.html"><img class="img-circle" alt="140x140" src="img/news_logo.jpg"></a>
-		        <p>Keep up with the latest news about education, research and important initiatives and programs at the university.</p>
-	        </div><!-- /.col-lg-4 -->
-
-	        <div class="col-lg-4">
-		        <h2 class="section">Events</h2>
-		        <a href="events.html"><img class="img-circle" alt="140x140" src="img/events_logo.jpg"></a>
-		        <p>Get the latest updates about events you won't want to miss for students, staff, and alumni. </p>
-			</div><!-- /.col-lg-4 -->
-
-	        <div class="col-lg-4">
-	        	<h2 class="section">University Community</h2>
-		         <a href="universitycommunity.html"><img class="img-circle" alt="140x140" src="img/community_logo.jpg"></a>
-		         <p>Our Community consists of news highlights, events and noteworthy achievements of the faculty and staff.</p>
-	        </div><!-- /.col-lg-4 -->
-	    </div><!-- /.row -->
-
-
-    </div><!-- /.container -->
-
-
-    <!--footer-->
-    <footer>
-    	<div id="footer">
-	    	<div class="container">
-	    		<div id="site-map">
-	    			<div class="footer-col" id="footer-col1">
-	    				<h4>Contact</h4>
-	    				<p>
-	    					Georgia State University
-	    					<br>
-	    					P.O. Box 3965
-	    					<br>
-							Atlanta, GA 30302-3965
-							<br>
-							(404) 413-2000
-	    				</p>
-
-	    				<p>
-	    					Copyright © 2014 
-	    					<br>
-	    					Harry Bui || Vicky Tu || Heewon Ryu
-	    					<br>
-	    					All rights reserved.
-	    				</p>
-	    				<ul>
-	    					<li>
-	    						<a href="#">Terms</a>
-	    					</li>
-	    					<li>
-	    						<a href="contact.html">Contact</a>
-	    					</li>
-	    				</ul>
-	    			</div>
-	    			<div class="footer-col" id="footer-col2">
-	    				<h4>Colleges</h4>
-	    				<ul>
-	    					<li>
-	    						<a href="http://aysps.gsu.edu/">Andrew Young School of Policy Studies</a>
-	    					</li>
-	    					<li>
-	    						<a href="http://snhp.gsu.edu/">Byrdine F. Lewis School of Nursing and Health Professions</a>
-	    					</li>
-	    					<li>
-	    						<a href="http://www.cas.gsu.edu/">College of Arts and Sciences</a>
-	    					</li>
-	    					<li>
-	    						<a href="http://education.gsu.edu/">College of Education</a>
-	    					</li>
-	    					<li>
-	    						<a href="http://law.gsu.edu/">College of Law</a>
-	    					</li>
-	    					<li>
-	    						<a href="http://honors.gsu.edu/">Honors College</a>
-	    					</li>	    						    			
-	    					<li>
-	    						<a href="http://publichealth.gsu.edu/">School of Public Health</a>
-	    					</li>
-	    					<li>
-	    						<a href="http://robinson.gsu.edu/">J. Mack Robinson College of Business</a>
-	    					</li>		
-	    				</ul>
-	    			</div>
-	    			<div class="footer-col" id="footer-col3">
-	    				<h4>Other Resources</h4>
-	    				<ul>
-	    					<li>
-	    						<a href="http://map.gsu.edu/#/">Campus Map</a>
-	    					</li>	    					
-	    					<li>
-	    						<a href="http://www.gsu.edu/a-z-index/">Directory</a>
-	    					</li>
-	    					<li>
-	    						<a href="http://disability.gsu.edu/">Disability Resources</a>
-	    					</li>
-	    					<li>
-	    						<a href="http://safety.gsu.edu/emergency-management/">Emergency</a>
-	    					</li>	
-	    				</ul>
-	    			</div>	    			
-	    		</div>
-	    		<img class="footer-logo" src="img/logo-footer.png" alt="Georgia State University">
-	    	</div>
-
-    	</div>
-    </footer>
-    <!--end footer-->
-
-
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
-
-</body>
 </html>

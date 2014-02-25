@@ -1,0 +1,280 @@
+/*CSS stylesheet for Information Architecture main website*/
+
+/*General*/
+
+h1, h2, h3, h4 {
+	font-family:Georgia, Times;
+}
+
+body {
+	font-family:Georgia, Times;
+	padding-bottom:50px;
+}
+
+p {
+	padding-left:20px;
+	padding-right:20px;
+	text-align:justify;
+}
+
+ul {
+	list-style:none;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+li a:hover {
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.breadcrumb {
+	text-align:center;
+}
+
+.tab {
+	padding-left:20px;
+}
+
+.double-tab {
+	padding-left:40px;
+}
+
+.italics {
+	font-style:italic;
+}
+
+.main-section {
+	width:70%;
+	background-color:#fff;
+}
+
+.small-heading {
+	background-color:#fff;
+	padding:10px;
+	padding-left:20px;
+}
+
+/*Heading*/
+
+.page-header {
+	background-color:#C8C8C8;
+	padding:10px;
+	padding-left:20px;
+}
+
+.sub-header {
+	color:#707070;
+}
+
+/*Documents*/
+
+/*Site redesign*/
+
+.redes-header {
+	background-color:#fff;
+	padding:10px;
+	padding-left:20px;
+}
+
+/*Personas*/
+
+.personas-small {
+	color:#707070;
+}
+
+.persona-thumbnail {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:500px;
+}
+
+.scenario-heading {
+	font-weight:bold;
+}
+
+.scenario-subheading {
+	font-style:italic;
+}
+
+/*Competitive Analysis*/
+
+.table-header {
+	border-bottom:3px solid #000;
+}
+
+.bordered-sides {
+	border-right:1px solid #000;
+	border-left:1px solid #000;
+}
+
+/*Table modified from http://www.csstablegenerator.com/*/
+
+.compa-table {
+	margin:auto;
+	padding:0px;
+	width:80%;
+	border:1px solid #ffffff;
+	
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+	
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+	
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+	
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}
+
+.compa-table table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}
+
+.compa-table tr:last-child td:last-child {
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+}
+
+.compa-table table tr:first-child td:first-child {
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}
+
+.compa-table table tr:first-child td:last-child {
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+}
+
+.compa-table tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+}
+
+.compa-table tr:hover td{
+	background-color:#ffffff;	
+}
+
+.compa-table td{
+	vertical-align:middle;
+	
+	background-color:#ffffff;
+
+	border:1px solid #ffffff;
+	border-width:0px 1px 1px 0px;
+	text-align:center;
+	padding:23px;
+	font-size:12px;
+	font-family:Georgia;
+	font-weight:normal;
+	color:#000000;
+}
+
+.compa-table tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}
+
+.compa-table tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}
+
+.compa-table tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+
+.compa-table tr:first-child td{
+		background:-o-linear-gradient(bottom, #ffffff 5%, #ffffff 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff) );
+	background:-moz-linear-gradient( center top, #ffffff 5%, #ffffff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ffffff");	background: -o-linear-gradient(top,#ffffff,ffffff);
+
+	background-color:#ffffff;
+	border:0px solid #ffffff;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:14px;
+	font-family:Georgia;
+	color:#000000;
+}
+
+.compa-table tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #ffffff 5%, #ffffff 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff) );
+	background:-moz-linear-gradient( center top, #ffffff 5%, #ffffff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ffffff");	background: -o-linear-gradient(top,#ffffff,ffffff);
+
+	background-color:#ffffff;
+}
+
+.compa-table tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+
+.compa-table tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
+
+/*Footer*/
+
+#footer {
+  background-color:#eee;
+  padding-bottom:0px;
+  margin-bottom:50px;
+  margin-top:80px;
+}
+
+.footer-text {
+  padding-top:20px;
+  text-align:right;
+  padding-right:20px;
+  padding-left:10px;
+  color:#000;
+}
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+    /* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important; 
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+  height: 60px;
+}
+#footer {
+  background-color: #eee;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+  #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
