@@ -104,8 +104,10 @@ GENERAL
 	vertical-align: inherit;
 	border-color: inherit;
 }
-.colgroup col {
-	width:55%;
+.contactbody th, td {
+	border: 1px solid black;
+	overflow: hidden;
+	width: 70%;
 }
 
 /* TABLE */
