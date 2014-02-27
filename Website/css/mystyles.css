@@ -276,6 +276,13 @@ p {color:#0038aa;}
   }
 }
 
+.pagebody .block1 h1 h2 {
+	color:#0038aa;
+}
+.pagebody2 .block1 h1 h2 {
+	color:#0038aa;
+}
+
 .pagebody .block1 .description h3{
 	color: gray;
 }
